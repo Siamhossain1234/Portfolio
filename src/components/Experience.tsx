@@ -16,14 +16,24 @@ interface Experience {
 const experiences: Experience[] = [
   {
     title: "Software Engineer Intern",
+    company: "Cultured Kids Cuisine",
+    period: "July 2025 - August 2025",
+    description: [
+      "Built and deployed 15+ reusable UI components in React.js, improving maintainability and reducing duplicate code by 30%",
+      "Improved mobile responsiveness across 5+ breakpoints, ensuring seamless user experience on all devices.",
+      "Collaborated closely with design and engineering teams to deliver production-ready web features."],
+    technologies: ["Node.js", "React.js", "Express"]
+  },
+  {
+    title: "Software Engineer Intern",
     company: "Theramotive",
     period: "June 2024 - August 2024",
     description: [
-      "Developed scalable web services using React.js and Node.js to support cloud-hosted AI-driven medical billing workflows decreasing patient intake time by 500%.",
-      "Deployed services using containerized architectures (Docker) and Vercel, reducing deployment time and complexity.",
-      "Integrated NLP models for medical coding automation and built a fault-tolerant computer vision pipeline, leveraging Python for model inference and backend orchestration.",
-      "Contributed to cross-functional sprint cycles, emphasizing secure and observable software deployments using Github Actions CI/CD pipelines." ],
-    technologies: ["Node.js", "React", "Express", "Docker", "Python"]
+      "Reduced patient intake time by 75% by developing scalable cloud-hosted medical billing services with React.js and Node.js.",
+      "Increased data entry efficiency by 40% by integrating NLP models for automated medical coding and implementing a fault-tolerant computer vision pipeline in Python.",
+      "Improved deployment reliability and speed by delivering production-ready services through Vercel and Google Cloud Platform.",
+      "Participated in multiple agile sprints within a 16-person engineering team, collaborating across two squads to design, implement, and test secure internal tools, improving internal workflow efficiency." ],
+    technologies: ["Node.js", "React.js", "Express", "Google Cloud Platform", "Vercel"]
   },
   {
     title: "Quality Assurance Tester",
